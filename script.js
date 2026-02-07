@@ -32,7 +32,6 @@ const elements = {
 // ===== TYPING ANIMATION =====
 const words = [
     'Computer Science Student',
-    'Full Stack Developer',
     'Problem Solver',
     'Tech Enthusiast'
 ];
@@ -509,3 +508,4 @@ window.addEventListener('load', () => {
         }, 300);
     }
 });
+
