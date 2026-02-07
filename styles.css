@@ -110,11 +110,13 @@ body {
     left: 0;
     right: 0;
     background: transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: none; 
+    box-shadow: none;
+    border: none;
     z-index: 1000;
-    transition: var(--transition);
     padding: 0;
 }
+
 
 .navbar.scrolled {
     background: rgba(10, 10, 10, 0.98);
@@ -1141,4 +1143,5 @@ body {
     outline: none;
     box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.4);
 }
+
 
