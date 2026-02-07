@@ -109,7 +109,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(10, 10, 10, 0.95);
+    background: transparent;
     backdrop-filter: blur(10px);
     z-index: 1000;
     transition: var(--transition);
@@ -1141,3 +1141,4 @@ body {
     outline: none;
     box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.4);
 }
+
